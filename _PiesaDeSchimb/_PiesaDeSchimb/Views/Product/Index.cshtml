@@ -1,0 +1,84 @@
+﻿@model IEnumerable<Mongo.Shop.Administration.Product>
+
+@{
+    ViewData["Title"] = "Products";
+}
+
+    <h1>
+
+
+    </h1>
+
+
+    <h1>
+        
+    </h1>
+
+<form method="get">
+    <div class="form-group">
+        <input type="search" class="form-control" />
+        <span class="input-group-btn">
+            <button class="btn btn-group-vertical">
+                <i class="glyphicon glyphicon-search">
+                </i>
+            </button>
+        </span>
+    </div>
+</form>
+
+<p>
+    <a asp-action="Create">Add New Product</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ImageUrl)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Brand)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @if (item.ImageUrl != null)
+                    {
+                        <img src="@Url.Content(item.ImageUrl)" alt="Image" />
+                    }
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Brand)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

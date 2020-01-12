@@ -1,0 +1,8 @@
+C:\Users\Andrei Coman\Documents\AfaceriElectronice\_PiesaDeSchimb\Mongo.Shop.Administration\bin\Release\netcoreapp2.1\Mongo.Shop.Administration.deps.json
+C:\Users\Andrei Coman\Documents\AfaceriElectronice\_PiesaDeSchimb\Mongo.Shop.Administration\bin\Release\netcoreapp2.1\Mongo.Shop.Administration.dll
+C:\Users\Andrei Coman\Documents\AfaceriElectronice\_PiesaDeSchimb\Mongo.Shop.Administration\bin\Release\netcoreapp2.1\Mongo.Shop.Administration.pdb
+C:\Users\Andrei Coman\Documents\AfaceriElectronice\_PiesaDeSchimb\Mongo.Shop.Administration\obj\Release\netcoreapp2.1\Mongo.Shop.Administration.csprojAssemblyReference.cache
+C:\Users\Andrei Coman\Documents\AfaceriElectronice\_PiesaDeSchimb\Mongo.Shop.Administration\obj\Release\netcoreapp2.1\Mongo.Shop.Administration.AssemblyInfoInputs.cache
+C:\Users\Andrei Coman\Documents\AfaceriElectronice\_PiesaDeSchimb\Mongo.Shop.Administration\obj\Release\netcoreapp2.1\Mongo.Shop.Administration.AssemblyInfo.cs
+C:\Users\Andrei Coman\Documents\AfaceriElectronice\_PiesaDeSchimb\Mongo.Shop.Administration\obj\Release\netcoreapp2.1\Mongo.Shop.Administration.dll
+C:\Users\Andrei Coman\Documents\AfaceriElectronice\_PiesaDeSchimb\Mongo.Shop.Administration\obj\Release\netcoreapp2.1\Mongo.Shop.Administration.pdb
